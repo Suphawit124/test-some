@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "test-some",
+  "description": "This action prints \"Hello World\" or \"Hello\" + the name of person to greet",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/* --exit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suphawit124/test-some.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suphawit124/test-some/issues"
+  },
+  "homepage": "https://github.com/Suphawit124/test-some#readme"
+}
