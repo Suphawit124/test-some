@@ -9,4 +9,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log('The app is up and running!')
 })
+
+server.listen(5000);
+
 module.exports = app
